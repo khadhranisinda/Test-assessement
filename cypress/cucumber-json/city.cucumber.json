@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Display City of Origin for Selected Employees",
+    "line": 1,
+    "id": "display-city-of-origin-for-selected-employees",
+    "tags": [],
+    "uri": "city.feature",
+    "elements": [
+      {
+        "id": "display-city-of-origin-for-selected-employees;verify-display-of-city-of-origin-for-selected-employees",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify display of city of origin for selected employees",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the employee management page",
+            "result": {
+              "status": "passed",
+              "duration": 922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select certain employees",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I view the selected employees' details",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the city of origin displayed for each selected employee",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
