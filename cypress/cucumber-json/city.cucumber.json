@@ -22,7 +22,7 @@
             "name": "I am on the employee management page",
             "result": {
               "status": "passed",
-              "duration": 922000000
+              "duration": 345000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I select certain employees",
             "result": {
               "status": "passed",
-              "duration": 220000000
+              "duration": 194000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I view the selected employees' details",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 91000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I should see the city of origin displayed for each selected employee",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 19000000
             }
           }
         ]
