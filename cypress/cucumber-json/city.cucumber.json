@@ -10,7 +10,7 @@
       {
         "id": "display-city-of-origin-for-selected-employees;verify-display-of-city-of-origin-for-selected-employees",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 6,
         "name": "Verify display of city of origin for selected employees",
         "tags": [],
         "type": "scenario",
@@ -22,37 +22,37 @@
             "name": "I am on the employee management page",
             "result": {
               "status": "passed",
-              "duration": 345000000
+              "duration": 273000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 8,
             "name": "I select certain employees",
             "result": {
               "status": "passed",
-              "duration": 194000000
+              "duration": 199000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 9,
             "name": "I view the selected employees' details",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 90000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 10,
             "name": "I should see the city of origin displayed for each selected employee",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 20000000
             }
           }
         ]
